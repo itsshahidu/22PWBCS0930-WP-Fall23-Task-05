@@ -1,0 +1,89 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+nav .navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-toggler {
+  background-color: #dc3545;
+}
+
+#home {
+  padding: 30px;
+  background-color: #bcb7b7;
+}
+#home .home-content .home-text h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 25px;
+}
+#home .home-content .home-text p {
+  font-size: 18px;
+  margin: 25px;
+}
+#home .home-content .container .row img {
+  width: 700px;
+  height: 400px;
+}
+
+#about {
+  padding: 30px;
+}
+#about h2 {
+  margin: 25px;
+  text-align: center;
+}
+#about p {
+  margin: 25px;
+}
+
+#menu {
+  padding: 20px;
+  background-color: #bcb7b7;
+}
+#menu h2 {
+  text-align: center;
+  text-align: center;
+}
+
+#team {
+  background-color: #bcb7b7;
+  padding: 30px;
+}
+#team h2 {
+  margin: 25px;
+  text-align: center;
+}
+#team p {
+  margin: 25px;
+}
+
+.container .row img {
+  width: 700px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container .row img {
+    margin: 8px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container-fluid .row .card {
+    margin: 8px;
+  }
+}
+#contact button.btn-primary {
+  padding: 10px;
+  margin: 5px;
+}
+
+.footer h3 {
+  color: rgb(255, 255, 255);
+}
+.footer ul.list-unstyled li a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

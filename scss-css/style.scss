@@ -1,0 +1,134 @@
+
+$primary-color: #dc3545;
+$secondary-color: #bcb7b7;
+
+*{
+    $font-family: 'Arial', sans-serif; 
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    .navbar-brand {
+      font-size: 24px;
+    }
+}
+.navbar-toggler {
+    background-color: $primary-color;
+  }
+
+
+  // Home Section
+#home {
+    padding: 30px;
+    background-color: $secondary-color;
+    .home-content {
+      .home-text {
+        h1 {
+            text-align: center;
+          font-size: 36px;
+          margin: 25px;
+        }
+        p {
+          font-size: 18px;
+          margin: 25px;
+        }
+      }
+      .container {
+        .row {
+          img {
+            width: 700px;
+            height: 400px;
+          }
+        }
+      }
+    }
+  }
+
+// about us Section
+#about {
+    padding: 30px;
+    h2{
+        margin: 25px;
+        text-align: center;
+    }
+    p{
+        margin: 25px;
+    }
+  }
+
+#menu{
+    padding: 20px;
+    background-color: $secondary-color;
+    h2{
+        text-align: center;
+        text-align: center;
+    }
+}
+
+
+  // Team Section
+#team {
+    background-color: $secondary-color;
+    padding: 30px;
+    h2{
+        margin: 25px;
+        text-align: center;
+    }
+    p{
+        margin: 25px;
+    }
+  }
+
+
+
+  .container{
+      .row{
+          img{
+             width: 700px;
+              height: 400px;
+          }
+      }
+  }
+
+   @media only screen and (max-width: 800px) {    
+       .container{
+          .row{
+               img{
+                 margin: 8px;
+              }
+          }
+       }
+   }
+   @media only screen and (max-width: 800px){
+      .container-fluid{
+          .row{
+              .card{
+                  margin: 8px;
+              }
+          }
+      }
+   }
+
+
+   #contact {
+    button.btn-primary {
+      padding: 10px;
+      margin: 5px;
+    }
+  }
+  
+
+   // Footer Section
+.footer {
+    h3 {
+      color: rgb(255, 255, 255);
+    }
+    ul.list-unstyled {
+      li {
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
